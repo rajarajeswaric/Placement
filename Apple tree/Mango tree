@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int r,c;
+    cin>>r>>c;
+    int t;
+    cin>>t;
+    
+    if((t>=1) && t<=c || t%c == 1 || t%4==0)
+    {
+        cout<<"Mango Tree";
+    }
+    else
+    {
+        cout<<"Apple Tree";
+    }
+}
