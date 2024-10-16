@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int m;
+    cin>>m;
+    
+    if(m>=91 && m==100 )
+    {
+        cout<<"Grade : O";
+    }
+    else if(m>=81 && m<=90)
+    {
+        cout<<"Grade : A";
+    }
+    else if(m>=71 && m<=80)
+    {
+        cout<<"Grade : B";
+    }
+    else
+    {
+        cout<<"Grade : F";
+    }
+    
+    return 0;
+}
