@@ -1,0 +1,20 @@
+#include <iostream>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+   int a,b,c;
+   cin>>a>>b>>c;
+   
+   int d = (pow(b,2)) - (4*a*c);
+   
+   int r = (-b +  (sqrt(d)))/(2*a);
+   
+   int s = (-b - (sqrt(d)))/(2*a);
+   
+   cout<<d<<endl;
+   cout<<r<<" , "<<s<<endl;
+
+    return 0;
+}
