@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int m;
+    cin>>m;
+    
+    if(m%4==0 && m/100!=0  && m/400!=0 && m/4!=0)
+    {
+        cout<<"Leap Year";
+    }
+    else
+    {
+        cout<<"Not a Leap Year";
+    }
+    
+    return 0;
+}
